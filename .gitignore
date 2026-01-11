@@ -1,0 +1,41 @@
+# --- IDE specific files ---
+.idea/
+*.iml
+.vscode/
+.history/
+*.code-workspace
+.project
+.classpath
+.settings/
+
+# --- OS specific files ---
+.DS_Store
+Thumbs.db
+.Trash-*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# --- Java / Gradle ---
+build/
+.gradle/
+bin/
+out/
+
+# --- Documentation ---
+*.swp
+*~
+
+# --- General log and temp files ---
+*.log
+*.tmp
+*.bak
+
+# --- Personal/local config files ---
+*.local
