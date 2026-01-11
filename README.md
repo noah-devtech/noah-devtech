@@ -76,16 +76,6 @@ Processing 4をIntelliJ等のモダンIDEで開発するためのGradleテンプ
 
 ---
 
-## 📈 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=noah-devtech&show_icons=true&theme=gotham&count_private=true" alt="GitHub Stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noah-devtech&layout=compact&theme=gotham&langs_count=8" alt="Top Langs" />
-</div>
-
----
-
 ## 📫 How to reach me
 
 2027年卒のソフトウェアエンジニア志望です。低レイヤーやネットワーク、インフラ技術に強い関心があります。
