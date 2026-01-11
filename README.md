@@ -13,6 +13,7 @@
 
   <p>
     <a href="https://qiita.com/noah-devtech" target="_blank">
+      Tech Blog:
       <img src="https://img.shields.io/badge/Qiita-55C500?style=for-the-badge&logo=qiita&logoColor=white" alt="Qiita" />
     </a>
   </p>
