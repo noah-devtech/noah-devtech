@@ -11,11 +11,10 @@
     単に動くコードではなく、技術的な制約やシステムアーキテクチャ、保守性を考慮した「設計されたコード」の実装を心がけています。
   </p>
 
-  <p>
-    <a href="https://qiita.com/noah-devtech" target="_blank">
-      <img src="https://img.shields.io/badge/Tech_Blog-Qiita-55C500?style=for-the-badge&logo=qiita&logoColor=white" alt="Qiita" />
-    </a>
-  </p>
+
+  ![](https://komarev.com/ghpvc/?username=noah-devtech&color=brightgreen&style=flat)
+<!-- My Qiita posts -->
+[![My Qiita posts](https://qiita-badge.apiapi.app/s/noah-devtech/posts.svg)](http://qiita.com/noah-devtech)
 
 </div>
 
@@ -55,17 +54,21 @@
 ## 🚀 Featured Projects
 
 ### 1. Ethernet-river
+>
 > **Visualizing network traffic flow using OSC protocol.**
+
+![ethernet-riverのスクリーンショット](img/ethernet-river.png)
 
 ネットワークパケットの流れを「光の川」としてリアルタイムに可視化するインタラクティブ・インスタレーションです。
 
 * **Purpose:** 目に見えないネットワーク通信の量と流れを、直感的に理解可能な形で物理空間に投影すること。
 * **Architecture:** * **Capture:** Raspberry Pi上で `Pyshark` を用い、パケットをリアルタイム解析。
-    * **Communication:** 解析データをOpenSound Control (OSC) プロトコルで描画用PCへ低遅延転送。
-    * **Visualization:** Java (Processing) 側で受信データに基づきパーティクルを生成・描画。
+  * **Communication:** 解析データをOpenSound Control (OSC) プロトコルで描画用PCへ低遅延転送。
+  * **Visualization:** Java (Processing) 側で受信データに基づきパーティクルを生成・描画。
 * **Tech:** Python, Java (Processing), OSC, Raspberry Pi
 
 ### 2. [Processing 4 Build Automation System](https://github.com/noah-devtech/Processing4-Gradle-Template)
+>
 > **Solving native library dependency hell & Java 17 module restrictions.**
 
 Processing 4をIntelliJ等のモダンIDEで開発するためのGradleテンプレートです。
