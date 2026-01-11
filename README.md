@@ -13,8 +13,7 @@
 
 
   ![](https://komarev.com/ghpvc/?username=noah-devtech&color=brightgreen&style=flat)
-<!-- My Qiita posts -->
-[![My Qiita posts](https://qiita-badge.apiapi.app/s/noah-devtech/posts.svg)](http://qiita.com/noah-devtech)
+  [![My Qiita posts](https://qiita-badge.apiapi.app/s/noah-devtech/posts.svg)](http://qiita.com/noah-devtech)
 
 </div>
 
