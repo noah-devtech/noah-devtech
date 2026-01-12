@@ -61,7 +61,8 @@
 ネットワークパケットの流れを「光の川」としてリアルタイムに可視化するインタラクティブ・インスタレーションです。
 
 * **Purpose:** 目に見えないネットワーク通信の量と流れを、直感的に理解可能な形で物理空間に投影すること。
-* **Architecture:** * **Capture:** Raspberry Pi上で `Pyshark` を用い、パケットをリアルタイム解析。
+* **Architecture:**
+  * **Capture:** Raspberry Pi上で `Pyshark` を用い、パケットをリアルタイム解析。
   * **Communication:** 解析データをOpenSound Control (OSC) プロトコルで描画用PCへ低遅延転送。
   * **Visualization:** Java (Processing) 側で受信データに基づきパーティクルを生成・描画。
 * **Tech:** Python, Java (Processing), OSC, Raspberry Pi
@@ -72,8 +73,8 @@
 
 Processing 4をIntelliJ等のモダンIDEで開発するためのGradleテンプレートです。
 
-* **Problem:** OSごとのネイティブライブラリ（JOGL/OpenGL）の手動管理が困難であり、Java 17のモジュールシステムによる制約で起動しない問題がありました。
-* **Solution:** `build.gradle.kts`によるプラットフォームの動的判定と、JVM引数（`--add-opens`）の自動注入を実装し、 **「誰でも・どのOSでも一発で動く」** 環境を実現しました。
+* **Problem:** OSごとのネイティブライブラリ（JOGL/OpenGL）の手動管理が困難であり、Java 17のモジュールシステムによる制約により起動しない問題がありました。
+* **Solution:** `build.gradle.kts`によるプラットフォームの動的判定と、JVM引数（`--add-opens`）の自動注入を実装し、 **誰でも・どのOSでも一発で動く** 環境を実現しました。
 * **Tech:** Java 17, Gradle (Kotlin DSL), GitHub Actions
 
 ---
