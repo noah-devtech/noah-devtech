@@ -22,7 +22,7 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-  
+
   **Main Languages**<br>
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
@@ -83,4 +83,4 @@ Processing 4をIntelliJ等のモダンIDEで開発するためのGradleテンプ
 
 2027年卒のソフトウェアエンジニア志望です。低レイヤーやネットワーク、インフラ技術に強い関心があります。
 
-* ✉️ [Email Me](mailto:noah.dev.tech+github@gmail.com)
+* ✉️ [Email Me](mailto:noah.dev.tech@gmail.com)
