@@ -52,7 +52,7 @@
 
 ## 🚀 Featured Projects
 
-### 1. Ethernet-river
+### 1. [Ethernet-river](https://github.com/noah-devtech/eth-river-project)
 >
 > **Visualizing network traffic flow using OSC protocol.**
 
