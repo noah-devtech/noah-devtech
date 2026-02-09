@@ -62,10 +62,10 @@
 
 * **Purpose:** 目に見えないネットワーク通信の量と流れを、直感的に理解可能な形で物理空間に投影すること。
 * **Architecture:**
-  * **Capture:** Raspberry Pi上で `Pyshark` を用い、パケットをリアルタイム解析。
+  * **Capture:** `Pyshark` を用い、パケットをリアルタイム解析。
   * **Communication:** 解析データをOpenSound Control (OSC) プロトコルで描画用PCへ低遅延転送。
   * **Visualization:** Java (Processing) 側で受信データに基づきパーティクルを生成・描画。
-* **Tech:** Python, Java (Processing), OSC, Raspberry Pi
+* **Tech:** Python, Java (Processing), OSC
 
 ### 2. [Processing 4 Build Automation System](https://github.com/noah-devtech/Processing4-Gradle-Template)
 >
