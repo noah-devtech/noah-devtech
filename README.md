@@ -56,16 +56,18 @@
 >
 > **Visualizing network traffic flow using OSC protocol.**
 
-![ethernet-riverのスクリーンショット](img/ethernet-river.png)
+![ethernet-riverの展示風景](img/booth.JPG)
 
 ネットワークパケットの流れを「光の川」としてリアルタイムに可視化するインタラクティブ・インスタレーションです。
+ソフトウェアだけでなくネットワーク周りのハードウェアや設定も自分で構築し、ネットワーク通信の「見えない流れ」を物理空間に投影することを目指しました。
 
 * **Purpose:** 目に見えないネットワーク通信の量と流れを、直感的に理解可能な形で物理空間に投影すること。
 * **Architecture:**
-  * **Capture:** `Pyshark` を用い、パケットをリアルタイム解析。
-  * **Communication:** 解析データをOpenSound Control (OSC) プロトコルで描画用PCへ低遅延転送。
+  * **Capture:** `pyshark` を用い、パケットをリアルタイム解析。
+  * **Communication:** 解析データをOpenSound Control (OSC) プロトコルで描画用ソフトウェアへ低遅延転送。
   * **Visualization:** Java (Processing) 側で受信データに基づきパーティクルを生成・描画。
 * **Tech:** Python, Java (Processing), OSC
+* **Network Hardware:** FWX120, Cisco AIR-AP1832I-Q-K9, BUFFALO BS-GS2008P
 
 ### 2. [Processing 4 Build Automation System](https://github.com/noah-devtech/Processing4-Gradle-Template)
 >
